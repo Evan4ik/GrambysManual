@@ -34,36 +34,6 @@ function myFunction() {
    localStorage.setItem('darkmode', 'false')
    localStorage.getItem('darkmode')
 }
-
-function darkmode(){
-    $('body').addClass('dark-mode');
-    localStorage.setItem("mode", "dark");
-    }
-
-
-
-function nodark(){
-        $('body').removeClass('dark-mode');
-        localStorage.setItem("mode", "light");
-        }
-
-  if(localStorage.getItem("mode")=="dark")
-        darkmode();
-  else
-    nodark();
-
-$('#mode').change(function(){   
-
-    if ($(this).prop('checked'))
-    {
-        darkmode();
-    }
-    else
-    {
-        nodark();
-    }
-
-});
 </script>
 
 </body>
@@ -79,4 +49,3 @@ $('#mode').change(function(){
 
 </body>
 </html>
-  

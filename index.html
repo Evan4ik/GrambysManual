@@ -12,7 +12,18 @@ body {
   -ms-transition: background-color 500ms linear;
   transition: background-color 500ms linear;
 }
-
+a:link {
+  color: #4f4dc9;
+}
+a:visited {
+  color: #9d00ff;
+}
+a:hover {
+  color: #1b18c7;
+}
+a:active {
+  color: #110f7f;
+}
 .dark-mode {
   background-color: #1c1c1c;
   color: #e3e3e3;
@@ -32,11 +43,20 @@ body {
 .dark-mode a:active {
   color: #276b16;
 }
+.dark-mode button {
+   background-color: #1c1c1c;
+   color: #e3e3e3;
+   outline: 1px dashed #e3e3e3;
+}
+button { 
+  background-color: #e3e3e3;
+  color: #1c1c1c;
+  outline: 1px dashed #1c1c1c;
 </style>
   </head>
 <body>
 
-<button onclick="myFunction()">Toggle dark mode</button>
+<button onclick="myFunction()">Toggle night mode</button>
 
 <script>
 function myFunction() {
@@ -133,10 +153,16 @@ function myFunction() {
  <br>
  <br>
  <br>
- <br>
- <br> 
  <br> <img src="./images2/refuel.png" style="float:right; margin:0px 0px 15px 15px; cursor:pointer; cursor:hand; border:0" width="267" height="215" alt="" />
  <li> Q: How do I refuel my car or thrusters? </li>
  <li> A: You can refuel them using the item "canister" or "jug" by picking the canister or jug up, bringing them over to the thing you have to refuel, and holding e or q on them, depending on which hand you have the canister or jug in. There is another way, but we'll discuss it in the <a href="#building">building</a> category. </li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="building"><h2> Building </h2></div>
+<p> This is the category where you start learning a lot more things, things that you can't miss out on.
 </body>
 </html>
